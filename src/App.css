@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.day {
+  height: 100vh;
+  font-family: "Great Vibes", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 4.5rem;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.day img {
+  width: 50vw;
+}
+
+.wednesday .heading {
+  color: #f9a727;
+  text-shadow: 2px 2px #3f3d55;
+}
+.saturday .heading {
+  color: #e50914;
+  text-shadow: 2px 2px #00bfa6;
+}
+.thursday .heading {
+  color: #2f2f41;
+  text-shadow: 2px 2px #00b0ff;
+}
+.friday .heading {
+  color: #d83e75;
+  text-shadow: 2px 2px #2f2f41;
+}
+.sunday .heading {
+  color: #ff6584;
+  text-shadow: 2px 2px #3f3d55;
+}
+.monday .heading {
+  color: #0e01bf;
+  text-shadow: 2px 2px #ffb8b8;
+}
+.tuesday .heading {
+  color: #36799a;
+  text-shadow: 2px 2px #ffb8b8;
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 300px) {
+  :root {
+    font-size: 5px;
+  }
+}
